@@ -5,7 +5,7 @@ title: Comb
 
 <ul>
   {% for page in site.pages %}
-    {% if page.title != 'Comb' %}
+    {% if page.title != 'Comb' and page.title != '' %}
         <li>
         <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
         </li>
