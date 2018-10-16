@@ -25,7 +25,3 @@ title: Comb
   })();
 </script>
 <gcse:search></gcse:search>
-
-
-## Графы ЗДЕСЬ?!
-<img src="https://i.ytimg.com/vi/v7yYeeQiI8A/maxresdefault.jpg" width="500" height="300">
