@@ -7,13 +7,13 @@ title: Comb
   {% for page in site.pages %}
     {% if page.title != 'Comb' and page.title != '' %}
         <li>
-        <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+          <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
         </li>
     {% endif %}
   {% endfor %}
 </ul>
 
-<script>
+<!-- <script>
   (function() {
     var cx = '011003460990169060326:6tdnecmzel8';
     var gcse = document.createElement('script');
@@ -24,4 +24,4 @@ title: Comb
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<gcse:search></gcse:search>
+<gcse:search></gcse:search> -->
