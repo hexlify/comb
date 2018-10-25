@@ -4,13 +4,13 @@ title: Comb
 ---
 
 <ul>
-  {% for page in site.pages %}
-    {% if page.title != 'Comb' and page.title != '' %}
-        <li>
-          <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
-        </li>
-    {% endif %}
-  {% endfor %}
+  <li>
+    <a href="./p/asa">Конспекты Асанов</a>
+  </li>
+
+  <li>
+    <a href="./p/cmb">Конспекты "комбинаторные + матроиды"</a>
+  </li>
 </ul>
 
 <!-- <script>
