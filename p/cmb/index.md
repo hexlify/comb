@@ -1,7 +1,9 @@
 ---
 layout: default
-title: 1.1 Основные определения
+title: сомбианторные алгоритмы
 ---
+
+# {{ page.title }}
 
 <ul>
   {% for page in site.pages %}
